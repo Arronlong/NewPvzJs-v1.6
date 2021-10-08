@@ -2584,7 +2584,8 @@ function(b) {
     false);
     while (e--) { 
 (m = document.createElement("source")).type = h[d = j[e]];
-        m.src = "audio/" + a + "." + "mp3";
+        //m.src = "audio/" + a + "." + "mp3";
+        m.src = "//cdn.rawgit.com/miles-lin/NewPvzJs-v1.6/master/audio/" + a + "." + "mp3";
         f.appendChild(m)
     }
     f.preload = k == undefined ? "auto": ["auto", "meta", "none"][k];
